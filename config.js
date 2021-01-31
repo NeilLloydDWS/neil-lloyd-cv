@@ -20,9 +20,9 @@ module.exports = {
     }
   ],
   author: {
-    name: 'Marat Dospolov',
+    name: 'Neil Lloyd',
     photo: '/photo.jpg',
-    bio: 'Developer. Optimizer. Learner.',
+    bio: 'Architect. Developer. Optimizer. Learner.',
     contacts: {
       // don't remove fields, just make them empty string ''
       // https://github.com/gatsbyjs/gatsby/issues/2392
