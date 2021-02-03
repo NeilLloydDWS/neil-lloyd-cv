@@ -24,7 +24,7 @@ module.exports = {
       // https://github.com/gatsbyjs/gatsby/issues/2392
       github: 'dospolov',
       twitter: 'marat_dospolov',
-      linkedin: 'dospolov',
+      linkedin: 'neil-lloyd-nz',
       telegram: 'dospolov',
       instagram: 'dospolov',
       facebook: 'dospolov',
