@@ -11,17 +11,13 @@ module.exports = {
   googleAnalyticsId: 'UA-6589522-7',
   menu: [
     {
-      label: 'Blog',
-      path: '/'
-    },
-    {
       label: 'CV',
-      path: '/cv'
+      path: '/'
     }
   ],
   author: {
     name: 'Neil Lloyd',
-    photo: '/neil-124.png',
+    photo: '/mesmall.jpg',
     bio: 'Architect. Developer. Optimizer. Learner.',
     contacts: {
       // don't remove fields, just make them empty string ''

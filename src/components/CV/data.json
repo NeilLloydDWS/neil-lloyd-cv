@@ -3,49 +3,20 @@
     "name": "NEIL LLOYD",
     "position": "Enterprise Architect",
     "img": {
-      "src": "/neil-124.png",
+      "src": "/mesmall.jpg",
       "alt": "Neil Lloyd"
     },
-    "location": "Ukraine, Kyiv",
+    "location": "Queenstown, New Zealand",
     "contacts": [
       {
         "type": "telegram",
-        "link": "https://t.me/dospolov",
-        "linkName": "dospolov"
-      },
-      {
-        "type": "github",
-        "link": "https://github.com/dospolov",
-        "linkName": "dospolov"
+        "link": "https://t.me/neilfalloyd",
+        "linkName": "neilfalloyd"
       }
     ]
   },
-  "experiments": [
-    {
-      "name": "Account Surfer",
-      "locationIcon": "windows-store.svg",
-      "description": "Quickly switch between accounts and browsers",
-      "builtWith": ["electron", "react", "redux", "reduxsaga", "fabric"],
-      "link": "https://www.microsoft.com/en-us/p/account-surfer/9phvp9rjr7r7"
-    },
-    {
-      "name": "Trello Bookmark",
-      "locationIcon": "chrome-webstore.svg",
-      "description": "Store your bookmarks as Trello Cards",
-      "builtWith": ["apollo", "react", "antd"],
-      "link": "https://chrome.google.com/webstore/detail/trello-bookmark/ephoopolmejjnjkbbdcfgoohokhnekca",
-      "sourceCode": "https://github.com/dospolov/trello-bookmark"
-    },
-    {
-      "name": "Blog",
-      "locationIcon": "chrome.svg",
-      "description": "Read about productivity and development",
-      "builtWith": ["gatsby", "react", "netlify"],
-      "link": "https://dospolov.com",
-      "sourceCode": "https://github.com/dospolov/gatsby-starter-blog-and-cv"
-    }
-  ],
-  "pitchLine": "My passions are — web-development, cognitive biases and anthropology.",
+
+  "pitchLine": "My passions are — cloud architecture, setting up teams, tramping and travelling.",
   "topTech": [
     "react",
     "graphql",
@@ -144,9 +115,9 @@
       ]
     },
     "hard": {
-      "featured": ["Webpack", "ES6 / ES2017"],
+      "featured": ["Azure", "Azure DevOps, Kubernetes"],
       "other": [
-        "Adobe Photoshop",
+        "Azure",
         "Angular.js",
         "AWS",
         "Bootstrap",
@@ -184,18 +155,157 @@
   "experience": [
     {
       "company": {
-        "name": "N-iX",
-        "logoHeight": 40,
-        "logo": "n-ix.svg",
-        "period": "March 2018 - now"
+        "name": "AQUIBA",
+        "logoHeight": 30,
+        "logo": "aquiba.svg",
+        "period": "August 2020 - November 2020"
       },
       "projects": [
         {
-          "name": "CleverBridge",
+          "name": "Review and Recommendations",
+          "logoHeight": 25,
+          "logo": "reviewrec.png",
+          "role": "Enterprise Architect - Reviewer",
+          "description": "Aquiba has an active radio integration program to deliver digital water meters with world beating metrology and excellent product durability which are compatible with Utility network infrastructure. The proposed future for Aquiba being at scale created a need to review their initial in-house implementation with a view to providing it with a degree of hardness and robustness to service existing customers while the commercial and digital strategy evolved into a fully integrated vertical offering in the utility industry.",
+          "stack": {
+            "me": [
+              "Various Azure Services",
+              "Nodejs",
+              "Express",
+              "BitBucket",
+              "Azure DevOps",
+              "PostgreSQL"
+            ],
+            "all": ["Azure"]
+          },
+          "achievements": [
+            "tenancy, account, and subscription topology. Highlighting structural, operational, cost and security issues",
+            "review of existing ad-hoc vm infrastructure",
+            "network vulnerabilities with emphasis on DDoS exposure from UDP",
+            "review of DevOps: repositories, development practices, feature / release cycles, code security, developer task management, IaaC and release pipelines",
+            "review of application and vm logging",
+            "review of logging differentiation: metrics, trace, dependency, exceptions, availability and requests",
+            "code review: SANS SWAT, CWE, code smell, refactoring and home-rolled cryptography"
+          ]
+        },
+        {
+          "name": "Phase 1: Core Implementation",
+          "logoHeight": 25,
+          "logo": "Microsoft_Azure.png",
+          "role": "Enterprise Architect /DevOps Engineer & Developer",
+          "description": "The review and recommendations above resulted in a phased approach to transition to recommendations. The Phase 1 focused on core Azure setup and hardening.",
+          "stack": {
+            "me": [
+              "ARM",
+              "RBAC",
+              "MFA",
+              "PIM",
+              "Azure Security Centre",
+              "Azure Key Vault",
+              "Pulumi",
+              "Azure DevOps",
+              "GitFlow",
+              "Azure Monitor",
+              "App Insights"
+            ],
+            "all": ["Azure"]
+          },
+          "achievements": [
+            "topology: implemented management groups, subscription isolation, cost and billing control",
+            "security: implemented RBAC, MFA, PIM. Security Centre and its recommendations",
+            "implemented Azure Key Vault",
+            "vm's: hardened with JIT through PIM, added anti-malware, encrypted disks, added performance monitoring",
+            "implemented CI/CD via IaaC for VM's",
+            "implemented scale sets",
+            "upgraded DDoS on VNet",
+            "DevOps: implemented full IaaC via Pulumi, Blueprints and ARM. Centralised repositories on Azure DevOps. Implemented GitFlow Branching and Pull Requests",
+            "logging and monitoring: implemented AppInsights, Azure Monitor, VM and network logging via Azure Monitor"
+          ]
+        },
+        {
+          "name": "Phase 2: Kubernetes, Istio, APIM",
+          "logoHeight": 25,
+          "logo": "kubernetes.png",
+          "role": "Enterprise Architect & Implementer",
+          "description": "Phase 2 was the transition to Kubernetes and a micro-service architecture. It also included the creation of a developer portal for the Aquiba Utility customers to access Water Meter data and management.",
+          "stack": {
+            "me": [
+              "Kubernetes",
+              "Istio",
+              "Azure APIM",
+              "Azure Postgres",
+              "Azure DataLake",
+              "Azure Gateway and WAF",
+              "Azure Developer Portal",
+              "Azure DevOps",
+              "Docker",
+              "Azure Monitor",
+              "App Insights"
+            ],
+            "all": ["Azure", "Kubernetes"]
+          },
+          "achievements": [
+            "created DEV,UAT and PROD VNets",
+            "created VNet Subnets for DataLake,PostgreSQL, Kubernetes, APIM, GateWays",
+            "applied NSG's",
+            "created Azure Kubernetes Cluster",
+            "deployed Istio",
+            "dockerised existing Node/Express app",
+            "exposed public UDP endpoint to Water Meters",
+            "implmented APIM and WAF for their Customer API",
+            "created Aquiba Developer Portal for Utility Customers"
+          ]
+        },
+        {
+          "name": "Phase 3: Service Separation",
+          "logoHeight": 25,
+          "logo": "nodejs.png",
+          "role": "Developer",
+          "description": "The review and recommendations above resulted in a phased approach to transition to recommendations. The Phase 1 focused on core Azure setup and hardening.",
+          "stack": {
+            "me": [
+              "Kubernetes",
+              "Istio",
+              "Azure APIM",
+              "Azure Postgres",
+              "Azure DataLake",
+              "Azure Gateway and WAF",
+              "Azure Developer Portal",
+              "Azure DevOps",
+              "Docker",
+              "Azure Monitor",
+              "App Insights"
+            ],
+            "all": ["Azure", "Kubernetes"]
+          },
+          "achievements": [
+            "created DEV,UAT and PROD VNets",
+            "created Vnet Subnets for DataLake,Postges, Kubernetes, APIM, GateWays",
+            "applied NSG's",
+            "created Azure Kubernetes Cluster",
+            "deployed Istio",
+            "dockerised existing Node/Express app",
+            "exposed public UDP endpoint to Water Meters",
+            "implmented APIM and WAF for their Customer API",
+            "created Aquiba Developer Portal for Utility Customers"
+          ]
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "Comvita",
+        "logoHeight": 40,
+        "logo": "comvita-logo.png",
+        "period": "September 2017 - August 2020"
+      },
+      "projects": [
+        {
+          "name": "Enterprise Integration Strategy and Principles",
           "logoHeight": 40,
-          "logo": "cleverbridge.svg",
-          "role": "JavaScript Tech Leader",
-          "description": "All-in-one ecommerce and subscription billing solution for software, SaaS & digital goods.",
+          "logo": "enterprisestrategy.jpg",
+          "role": "Enterprise Architect - Strategy Lead",
+          "description": "Establishment of Comvita's Integration strategy and Enterprise development principles",
           "stack": {
             "me": ["React JS", "Redux", "Apollo", "GraphQL", "Webpack", "AntD"],
             "all": [".Net"]
@@ -213,150 +323,6 @@
           ]
         }
       ]
-    },
-    {
-      "company": {
-        "name": "MOQOD",
-        "logoHeight": 30,
-        "logo": "moqod.png",
-        "period": "August 2016 - March 2018"
-      },
-      "projects": [
-        {
-          "name": "Herofi",
-          "logoHeight": 35,
-          "logo": "herofi.svg",
-          "role": "JavaScript Tech Leader",
-          "description": "HEROFi combines visual media and data visualization to create the most advanced retail entertainment networks in the world.",
-          "stack": {
-            "me": ["React JS", "Redux", "Webpack", "Meteor.js", "AWS IoT", "AntD"],
-            "all": ["AWS"]
-          },
-          "achievements": [
-            "has built a team from scratch",
-            "successfully and predictably delivering of the product",
-            "high level of customer satisfaction",
-            "business objectives are met",
-            "a lot of my ideas were introduced and implemented (GitFlow, GitLab CI, Jira, new functionality)",
-            "insisted on rewriting the project - have borne fruit",
-            "chosen tech stack allow us to avoid hiring other professionals (C#, QT)",
-            "was proactive based on an understanding of the business, not just tech. requirements",
-            "mastered and taught new technologies (react + antd, redux, aws, jest)"
-          ]
-        }
-      ]
-    },
-    {
-      "company": {
-        "name": "EPAM",
-        "logoHeight": 40,
-        "logo": "epam.svg",
-        "period": "June 2014 - August 2016"
-      },
-      "projects": [
-        {
-          "name": "SportChek",
-          "logoHeight": 40,
-          "logo": "sportchek.svg",
-          "role": "JavaScript Team Leader",
-          "description": "Interactive kiosk with multiple screens",
-          "stack": {
-            "me": ["Angular.js", "meteor.js", "REST", "Socket.io", "Stylus", "Gulp"]
-          }
-        },
-        {
-          "name": "Adidas",
-          "logoHeight": 60,
-          "logo": "adidas.svg",
-          "role": "Senior JavaScript developer",
-          "description": "Marketing portal for Adidas Group",
-          "stack": {
-            "me": ["Backbone.js", "Marionette.js", "REST", "Stylus", "Gulp"],
-            "all": ["Java"]
-          }
-        }
-      ]
-    },
-    {
-      "company": {
-        "name": "CIKLUM",
-        "period": "January 2013 - June 2014",
-        "logoHeight": 50,
-        "logo": "ciklum.svg"
-      },
-      "projects": [
-        {
-          "name": "Cutco",
-          "logoHeight": 55,
-          "logo": "cutco.svg",
-          "role": "Senior JavaScript Developer",
-          "description": "Cutco’s product line includes kitchen knives and utensils, shears, flatware, cookware and sporting knives.",
-          "stack": {
-            "me": ["Ember.js", "REST", "HTML", "SASS"],
-            "all": ["Java"]
-          }
-        },
-        {
-          "name": "Ovia Health",
-          "logoHeight": 30,
-          "logo": "ovia_health.svg",
-          "role": "Senior Frontend Developer",
-          "description": "Ovia Health delivers the #1 health solution for women and families.",
-          "stack": {
-            "me": ["jQuery", "HTML", "SASS", "Django", "Bootstrap", "Twig"],
-            "all": ["PHP", "Symphony"]
-          }
-        }
-      ]
-    },
-    {
-      "company": {
-        "name": "LUXOFT",
-        "period": "March 2011 - January 2013",
-        "logoHeight": 70,
-        "logo": "luxoft.svg"
-      },
-      "projects": [
-        {
-          "name": "Medialogia",
-          "logoHeight": 40,
-          "logo": "medialogia.svg",
-          "role": "Web developer",
-          "description": "Service for evaluating the effectiveness of communications #1 in terms of sources: 800 million SOCMEDIA and 49000 mass media",
-          "stack": {
-            "me": ["Backbone.js", "REST", "jQuery", "Bootstrap", "HTML", "CSS"],
-            "all": [".Net"]
-          }
-        },
-        {
-          "name": "Hotwire",
-          "logoHeight": 40,
-          "logo": "hotwire.svg",
-          "role": "Web developer",
-          "description": "Hotwire is a travel website that can be used to book airline tickets, hotel rooms, rental cars, and vacation packages. It operates by selling off unsold travel inventory at discounted prices.",
-          "stack": {
-            "me": ["Javascript", "CSS", "JSP"],
-            "all": ["Java", "Spring"]
-          }
-        }
-      ]
-    },
-    {
-      "company": {
-        "name": "ISRA Group",
-        "period": "June 2009 - March 2011"
-      },
-      "projects": [
-        {
-          "name": "Trading systems",
-          "role": "HTML developer",
-          "description": "Trading systems",
-          "stack": {
-            "me": ["Wordpress", "Drupal", "Joomla", "jQuery", "Bootstrap", "HTML", "CSS"],
-            "all": ["PHP"]
-          }
-        }
-      ]
     }
   ],
   "volunteer": [
@@ -366,6 +332,224 @@
       "logoHeight": 50,
       "period": "2015",
       "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+    }
+  ],
+  "travel": [
+    {
+      "year": "2021",
+      "description": "we did some travel",
+      "countries": [
+        {
+          "place": "New Zealand",
+          "logo": "nz.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        }
+      ]
+    },
+    {
+      "year": "2020",
+      "description": "we did some travel",
+      "countries": [
+        {
+          "place": "Croatia",
+          "logo": "croatia.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Vietnam",
+          "logo": "vietnam.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "United Kingdom",
+          "logo": "uk.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Australia",
+          "logo": "Australia.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        }
+      ]
+    },
+    {
+      "year": "2019",
+      "description": "we did some travel",
+      "countries": [
+        {
+          "place": "Vietnam",
+          "logo": "vietnam.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Cambodia",
+          "logo": "cambodia-flag.png",
+          "logoHeight": 48,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Australia",
+          "logo": "Australia.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "United Kingdom",
+          "logo": "uk.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Slovenia",
+          "logo": "slovenia.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Italy",
+          "logo": "italy.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "France",
+          "logo": "france.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Spain",
+          "logo": "spain.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Hong Kong",
+          "logo": "hk.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        }
+      ]
+    },
+    {
+      "year": "2018",
+      "description": "we did some travel",
+      "countries": [
+        {
+          "place": "Vietnam",
+          "logo": "vietnam.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Sri Lanka",
+          "logo": "srilanka.png",
+          "logoHeight": 48,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Australia",
+          "logo": "Australia.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Singapore",
+          "logo": "singapore.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Cambodia",
+          "logo": "cambodia.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Thailand",
+          "logo": "thailand.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        }
+      ]
+    },
+    {
+      "year": "Prior 2018",
+      "description": "we did some travel",
+      "countries": [
+        {
+          "place": "Vietnam",
+          "logo": "vietnam.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Chile",
+          "logo": "chile.png",
+          "logoHeight": 48,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Australia",
+          "logo": "Australia.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Argentina",
+          "logo": "argentina.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Uruguay",
+          "logo": "uruguay.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Paraguay",
+          "logo": "paraguay.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Brazil",
+          "logo": "brazil.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "United Kingdom",
+          "logo": "uk.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Egypt",
+          "logo": "egypt.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Jordan",
+          "logo": "jordan.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Syria",
+          "logo": "syria.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        }
+      ]
     }
   ],
   "education": [
@@ -410,5 +594,5 @@
       "text": "It was a pleasure working with Marat. He is a very talented passionate JavaScript developer, and a good friend. During that time I was impressed with his skill set and the way he could think through problems and find a solution for them. I would be happy to work with him again in the future."
     }
   ],
-  "footer": "Dospolov.com © 2020"
+  "footer": "neillloyd.info © 2021"
 }

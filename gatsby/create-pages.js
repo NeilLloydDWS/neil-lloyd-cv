@@ -29,7 +29,7 @@ const createPages = async ({ graphql, actions }) => {
   })
 
   createPage({
-    path: '/cv',
+    path: '/',
     component: path.resolve('./src/templates/cv-template.js')
   })
 

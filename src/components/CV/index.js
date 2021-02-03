@@ -7,6 +7,7 @@ import SkillList from './SkillList'
 import Experience from './Experience'
 import PitchLine from './PitchLine'
 import Volunteer from './Volunteer'
+import Travel from './Travel'
 import Education from './Education'
 import Experiments from './Experiments'
 import Recommendations from './Recommendations'
@@ -27,6 +28,7 @@ const CV = () => (
       {data.skills && <SkillList skills={data.skills} />}
       {data.experience && <Experience experience={data.experience} />}
       {data.volunteer && <Volunteer volunteer={data.volunteer} />}
+      {data.travel && <Travel travel={data.travel} />}
       {data.education && <Education education={data.education} />}
       {data.recommendations && <Recommendations recommendations={data.recommendations} />}
       {data.footer && <Footer footer={data.footer} />}

@@ -17,10 +17,10 @@ const Sidebar = ({ hideMobile }) => {
       <Author author={author} />
       <Contacts contacts={author.contacts} />
       <Divider className="sidebar-divider" />
-      <Menu menu={menu} />
+      {/* <Menu menu={menu} /> */}
       <div className="hide-mobile">
-        <Categories />
-        <Tags />
+        {/* <Categories />
+        <Tags /> */}
       </div>
     </Sider>
   )

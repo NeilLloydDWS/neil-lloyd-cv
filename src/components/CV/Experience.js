@@ -32,10 +32,12 @@ const Experience = ({ experience }) => (
                       src={`/companies/${project.logo}`}
                       alt={project.name}
                       className="max-w-3/4 inline"
+                      height={project.logoHeight}
                     />
                   </Col>
                 )}
                 <Col span={project.logo ? 19 : 24} className="text-lg">
+                  <h2>{project.name}</h2>
                   <h3>{project.role}</h3>
                   <p>{project.description}</p>
                   {project.achievements && (
