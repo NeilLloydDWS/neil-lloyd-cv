@@ -264,7 +264,7 @@
           },
           "achievements": [
             "created DEV,UAT and PROD VNets",
-            "created VNet Subnets for DataLake,PostgreSQL, Kubernetes, APIM, GateWays",
+            "created VNet Subnets for DataLake, PostgreSQL, Kubernetes, APIM, GateWays",
             "applied NSG's",
             "created Azure Kubernetes Cluster",
             "deployed Istio",
@@ -345,7 +345,7 @@
           "name": "Development and Release of Integrations",
           "logoHeight": 40,
           "logo": "Microsoft_Azure.png",
-          "role": "Recruiter, Educator",
+          "role": "Architect, Developer",
           "description": "Establishment of Comvita's Offshore Integration development team based in Vietnam",
           "stack": {
             "me": [
