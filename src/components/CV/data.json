@@ -16,7 +16,7 @@
     ]
   },
 
-  "pitchLine": "My passions are — cloud architecture, setting up teams, tramping and travelling.",
+  "pitchLine": "My passions are — cloud architecture, devops, clean code, setting up teams, tramping and travelling.",
   "topTech": [
     "react",
     "graphql",
@@ -92,63 +92,81 @@
   "skills": {
     "soft": {
       "featured": [
-        "Focus on business needs",
-        "Team building / Leadership",
-        "Coaching",
-        "Decision making",
-        "Communication",
-        "Integrity"
-      ],
-      "other": [
-        "Scheduling",
-        "Risk Management",
         "Critical Thinking",
         "Problem Solving",
-        "Project Recovery",
+        "Persistence",
+        "Decision making",
+        "Communication",
+        "Integrity",
+        "Team Establishment",
+        "Strategic Thinking",
+        "Negotiation",
+        "Knowledge Sharing"
+      ],
+      "other": [
+        "GAP Analysis",
+        "Risk Management",
+        "Agile Practices",
         "Task Management",
         "Business Process Improvement",
         "Budgeting",
-        "UX Prototyping",
+        "Stakeholder Management",
         "Requirements Analysis",
         "Conflict Management",
-        "Policy Knowledge"
+        "Understanding Enterprise Frameworks"
       ]
     },
     "hard": {
-      "featured": ["Azure", "Azure DevOps", "Kubernetes"],
+      "featured": ["Azure", "Azure DevOps", "Kubernetes", ".Net"],
       "other": [
-        "Azure",
-        "Angular.js",
-        "AWS",
-        "Bootstrap",
-        "Backbone.js",
-        "CSS 3",
-        "GIT",
-        "Gulp",
-        "Google Maps API",
-        "D3.js",
-        "Ember.js",
-        "Fabric UI",
-        "Figma",
-        "Handlebars",
-        "HG",
-        "HTML 5",
-        "Illustrator",
-        "Jest",
-        "JIRA",
-        "LESS",
-        "Material UI",
-        "Meteor.js",
-        "Regexp",
+        "MuleSoft",
+        "CloudHub",
+        "Azure DevOps",
+        "Jenkins",
+        "Jira",
+        "Confluence",
+        "Notion",
+        "GIT[Bitbucket,GitHub,TFS]",
+        "Linear",
+        "Slack",
+        "MS Teams",
+        "Azure SQL",
+        "Azure CosmosDB",
+        "Azure PostgreSQL",
+        "DataLake",
+        "Azure DataWarehouse",
+        "Azure Storage",
+        "Azure DataBricks",
+        "Azure Service Fabric",
+        "Kubernetes",
+        "Istio",
+        "SOAP",
         "REST",
-        "SASS",
-        "Semantic UI",
-        "Socket.io",
-        "Stylus",
-        "Styled Components",
-        "Vanilla JS",
-        "Underscore / Lodash",
-        "Counter-Strike"
+        "GraphQL",
+        "APIM",
+        "Kafka",
+        "Azure Service Bus",
+        "UDP",
+        "AMQP",
+        "MQTT",
+        "Angular.js",
+        "Gatsby",
+        "Next",
+        "Nodejs",
+        "Express",
+        "Bootstrap",
+        "Chakra",
+        "Tailwind",
+        "FabricUI",
+        "Ionic",
+        "Contentful",
+        "DatoCMS",
+        "CommerceTools",
+        "Function Apps",
+        "Logic Apps",
+        "Workflow Core",
+        "Azure DataFactory",
+        "Office 365"
       ]
     }
   },
@@ -261,33 +279,16 @@
           "logoHeight": 35,
           "logo": "nodejs.png",
           "role": "Developer",
-          "description": "The review and recommendations above resulted in a phased approach to transition to recommendations. The Phase 1 focused on core Azure setup and hardening.",
+          "description": "This phase separated the single NodeJS/Express app into two separate services. One for the IoT / UDP endpoint servicing the Smart Water Meters and the other the Utility customer API.",
           "stack": {
-            "me": [
-              "Kubernetes",
-              "Istio",
-              "Azure APIM",
-              "Azure Postgres",
-              "Azure DataLake",
-              "Azure Gateway and WAF",
-              "Azure Developer Portal",
-              "Azure DevOps",
-              "Docker",
-              "Azure Monitor",
-              "App Insights"
-            ],
+            "me": ["Docker", "Nodejs", "Kubernetes", "Azure Postgres"],
             "all": ["Azure", "Kubernetes"]
           },
           "achievements": [
-            "created DEV,UAT and PROD VNets",
-            "created Vnet Subnets for DataLake,Postges, Kubernetes, APIM, GateWays",
-            "applied NSG's",
-            "created Azure Kubernetes Cluster",
-            "deployed Istio",
-            "dockerised existing Node/Express app",
-            "exposed public UDP endpoint to Water Meters",
-            "implmented APIM and WAF for their Customer API",
-            "created Aquiba Developer Portal for Utility Customers"
+            "isolated and optimised UDP code",
+            "isolated and optimised API code",
+            "created CI/CD pipelines",
+            "deployed to Kubernetes"
           ]
         }
       ]
@@ -307,19 +308,103 @@
           "role": "Enterprise Architect - Strategy Lead",
           "description": "Establishment of Comvita's Integration strategy and Enterprise development principles",
           "stack": {
-            "me": ["React JS", "Redux", "Apollo", "GraphQL", "Webpack", "AntD"],
+            "me": ["Azure", "ServiceFabric", "Kubernetes", "APIM", "VPN", "CosmosDB"],
             "all": [".Net"]
           },
           "achievements": [
-            "Chose and approved tech stack with the client",
-            "Hired and built the team from scratch",
-            "Created frontend architecture",
-            "Regularly negotiated with stakeholders",
-            "Validated module requirements",
-            "Advised other client development teams",
-            "Conducted a code review and knowledge sharing",
-            "Communicated with backend team",
-            "Successfully released"
+            "educated business on benefits of moving from BBoM to Domain Driven",
+            "established principles: Event Driven, API First, Domain Centric, Decentralised, Encapsulated, Automated, Fail Safe, Secure, Observable, Self Healing, Documented and Clean Code",
+            "high level architecture design",
+            "educated Comvita IT Team",
+            "worked with stakeholders"
+          ]
+        },
+        {
+          "name": "Integration Team Establishment",
+          "logoHeight": 40,
+          "logo": "team.png",
+          "role": "Recruiter, Educator",
+          "description": "Establishment of Comvita's Offshore Integration development team based in Vietnam",
+          "stack": {
+            "me": ["Recruitment", "Education"],
+            "all": ["Vendor Management"]
+          },
+          "achievements": [
+            "traveled and live in Ho Chi Minh Vietnam",
+            "used Vietnamese contacts to recruit team",
+            "conducted technical and soft interviews",
+            "upskilled the development team in Azure and integration principles",
+            "established development best practices",
+            "established continuous integration and deployment pipelines",
+            "established modified Agile Scrum methodology",
+            "integrated ticketing and support systems into workflow",
+            "supported existing MuleSoft integrations"
+          ]
+        },
+        {
+          "name": "Development and Release of Integrations",
+          "logoHeight": 40,
+          "logo": "Microsoft_Azure.png",
+          "role": "Recruiter, Educator",
+          "description": "Establishment of Comvita's Offshore Integration development team based in Vietnam",
+          "stack": {
+            "me": [
+              "MS Teams",
+              "Azure SQL",
+              "Azure CosmosDB",
+              "Azure PostgreSQL",
+              "DataLake",
+              "Azure DataWarehouse",
+              "Azure Storage",
+              "Azure DataBricks",
+              "Azure Service Fabric",
+              "Kubernetes",
+              "Istio",
+              "SOAP",
+              "REST",
+              "GraphQL",
+              "APIM",
+              "Kafka",
+              "Azure Service Bus",
+              "Angular.js",
+              "Gatsby",
+              "Next",
+              "Nodejs",
+              "Express",
+              "Bootstrap",
+              "Chakra",
+              "FabricUI",
+              "Ionic",
+              "Contentful",
+              "CommerceTools",
+              "Function Apps",
+              "Logic Apps",
+              "Workflow Core",
+              "Azure DataFactory",
+              "Office 365"
+            ],
+            "all": ["Azure", "Azure Service Fabric", "Kubernetes"]
+          },
+          "achievements": [
+            "ERP integrations: QAD, Kingdee",
+            "3PL integrations: MainFreight, DPD, Amazon",
+            "Loyalty integrations: XGate",
+            "POS integrations: CBR and TTRetail",
+            "Identity integrations: Azure AD, AD, BambooHR, Salesforce",
+            "HR integration: BambooHR",
+            "Health and Safety integrations: She Assure",
+            "Apiary Management integration: Comvita AMS",
+            "Quality integrations: OnQ, Analytica, Assure Quality",
+            "CRM integration: Salesforce",
+            "Commerce integrations: Oracle ATG, QAD, Commerce Tools, Amazon, TMall, JD.com, Koala",
+            "Content Management integrations: WebDam and Contentful",
+            "Planning and Analytics integrations: Adaptive Insights, PowerBI, DataBricks",
+            "Supplier management integration: Esker",
+            "EDM integration: Marketo",
+            "Manufacturing: Scada",
+            "Document management integrations: Kaboodle Intranet and Office 365",
+            "Communication tool integrations: Yammer, Teams, Outlook",
+            "Social integrations: Twitter and Facebook"
           ]
         }
       ]
@@ -337,7 +422,7 @@
   "travel": [
     {
       "year": "2021",
-      "description": "we did some travel",
+      "description": "We are currently travelling the South Island of New Zealand as a family, doing some of the Great Walks and as much tramping, swimming and outdoor activities as we can.",
       "countries": [
         {
           "place": "New Zealand",
@@ -349,7 +434,7 @@
     },
     {
       "year": "2020",
-      "description": "we did some travel",
+      "description": "2020 started off with travel from Croatia to Vietnam for work for 3 months. This was cut short due to COVID. We returned to the UK and had plans to head to Norway before COVID hit again. We then retreated to Australia to visit grandparents. We have now returned home to NZ.",
       "countries": [
         {
           "place": "Croatia",
@@ -374,12 +459,18 @@
           "logo": "Australia.png",
           "logoHeight": 50,
           "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "New Zealand",
+          "logo": "nz.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
         }
       ]
     },
     {
       "year": "2019",
-      "description": "we did some travel",
+      "description": "We largely spent the year travelling Europe in our motorhome aside from various business side trips.",
       "countries": [
         {
           "place": "Vietnam",
@@ -406,8 +497,14 @@
           "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
         },
         {
-          "place": "Slovenia",
-          "logo": "slovenia.png",
+          "place": "France",
+          "logo": "france.png",
+          "logoHeight": 50,
+          "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
+        },
+        {
+          "place": "Spain",
+          "logo": "spain.png",
           "logoHeight": 50,
           "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
         },
@@ -418,14 +515,14 @@
           "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
         },
         {
-          "place": "France",
-          "logo": "france.png",
+          "place": "Slovenia",
+          "logo": "slovenia.png",
           "logoHeight": 50,
           "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
         },
         {
-          "place": "Spain",
-          "logo": "spain.png",
+          "place": "Croatia",
+          "logo": "croatia.png",
           "logoHeight": 50,
           "description": "I conducted a series of lectures for BIONIC University. Main topics: HTML / CSS / jQuery / Handlebars / Ajax / Production experience / Best practices"
         },
@@ -439,7 +536,7 @@
     },
     {
       "year": "2018",
-      "description": "we did some travel",
+      "description": "We based our family in Ho Chi Minh City for the year for work with various trips around asia.",
       "countries": [
         {
           "place": "Vietnam",
@@ -481,7 +578,7 @@
     },
     {
       "year": "Prior 2018",
-      "description": "we did some travel",
+      "description": "This trip was mainly 4 months in South America, followed some of the Middle East. It culminated in a 5 month bicycle tour across Europe, conquering the 15 highest roads in Europe.",
       "countries": [
         {
           "place": "Vietnam",
@@ -608,44 +705,34 @@
   ],
   "education": [
     {
-      "place": "Kiev Institute of Business and Technologies (KIBT)",
-      "period": "2012 - 2014",
-      "degree": "Bachelor's Degree, Management, Managment of business activities"
+      "place": "Queensland University of Technology (QUT)",
+      "period": "2004 - 2007",
+      "degree": "Bachelor of Laws (LLB)",
+      "logo": "qut.png",
+      "logoHeight": 50
     },
     {
-      "place": "Moscow State Institute of Radio engineering, Electronics and Automation (MIREA)",
-      "period": "2007 - 2012",
-      "degree": "Master's Degree, Computer Science And Information Technologies, Software and computing systems (software engineer)"
+      "place": "Queensland University of Technology (QUT)",
+      "period": "2000 - 2003",
+      "degree": "Bachelor of Applied Science (BASc)",
+      "logo": "qut.png",
+      "logoHeight": 50
     }
   ],
   "recommendations": [
     {
-      "name": "Alexey Morozov",
-      "jobTitle": "Delivery Manager",
-      "photo": "alex.jpg",
-      "linkedin": "https://www.linkedin.com/in/morozovalexey/",
-      "text": "I've worked with or around Marat at N-iX for about a year and I've been consistently impressed with his passion and drive for quality software. He strives for excellence in all he does is able to build quality into everything he works on.\n\n Moreover, we've been working together on several projects before N-iX and Marat led all of them to a production-ready solution that was scalable and ready to bring value to the business. As a Technical Lead Marat was able to take the idea from Stakeholders, introduce decomposition and deliver the end-solution. He was responsible for technical excellence and people management within the team. He guided everyone towards one end goal!"
+      "name": "Michael Stevens",
+      "jobTitle": "MANAGING DIRECTOR",
+      "photo": "mick.jfif",
+      "linkedin": "https://www.linkedin.com/in/michaelstevens1/",
+      "text": "Reference available on request."
     },
     {
-      "name": "Nikolay Mirkula",
-      "jobTitle": "Software Engineer",
-      "photo": "nick.jpg",
-      "linkedin": "https://www.linkedin.com/in/nikolay-mirkula-bb0b9ab6/",
-      "text": "Marat is an amazing professional, who brings all of the skills and expertise in programming and web development. His productivity and ambition sets a great example for the rest of the team. It was indeed a wonderful thing to work with him as the Lead Frontend Engineer at Moqod company.\n\n As a colleague, I recommend him to other institutions who may want to hire his most treasured skills"
-    },
-    {
-      "name": "Michael Sebastiyan",
-      "jobTitle": "Senior Software Engineer",
-      "photo": "mike.jpg",
-      "linkedin": "https://www.linkedin.com/in/msebastiyan/",
-      "text": "Marat is an excellent software engineer. He's very passionate about tech, building great user experiences, and improving the project codebase. He's a very high value add to every team he works on."
-    },
-    {
-      "name": "Sergii Kalashnykov",
-      "jobTitle": "Test Engineer",
-      "photo": "sergii.jpg",
-      "linkedin": "https://www.linkedin.com/in/skalashnikov/",
-      "text": "It was a pleasure working with Marat. He is a very talented passionate JavaScript developer, and a good friend. During that time I was impressed with his skill set and the way he could think through problems and find a solution for them. I would be happy to work with him again in the future."
+      "name": "Dan Waugh",
+      "jobTitle": "CIO",
+      "photo": "dan.jfif",
+      "linkedin": "https://www.linkedin.com/in/dan-waugh-666352100/",
+      "text": "Reference available on request."
     }
   ],
   "footer": "neillloyd.info © 2021"

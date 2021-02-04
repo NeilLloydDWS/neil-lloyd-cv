@@ -10,7 +10,7 @@ const Travel = ({ travel }) => (
           {travel.year}
         </Divider>
         <Row className="text-lg" >
-          <Col span={24}>{travel.description}</Col>
+          <Col className="travel-desc" span={24}>{travel.description}</Col>
 
 
           {travel.countries.map((activity, i) => (

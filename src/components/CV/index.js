@@ -24,7 +24,7 @@ const CV = () => (
         <Experiments experiments={data.experiments} tech={data.tech} />
       )}
       {data.pitchLine && <PitchLine pitchLine={data.pitchLine} />}
-      {data.tech && data.topTech && <TopTech topTech={data.topTech} tech={data.tech} />}
+      {/* {data.tech && data.topTech && <TopTech topTech={data.topTech} tech={data.tech} />} */}
       {data.skills && <SkillList skills={data.skills} />}
       {data.experience && <Experience experience={data.experience} />}
       {/* {data.volunteer && <Volunteer volunteer={data.volunteer} />} */}

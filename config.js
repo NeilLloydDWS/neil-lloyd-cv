@@ -1,14 +1,14 @@
 module.exports = {
   url: 'https://gatsby-starter-blog-and-cv.netlify.app',
   pathPrefix: '/',
-  title: 'Blog by Marat Dospolov',
+  title: 'CV by Neil Lloyd',
   keywords:
-    'account surfer, trello bookmark, trello, productivity, javascript, Marat Dospolov, choosy windows, browser selector',
+    'Neil Lloyd, Azure, Cloud, Architect',
   subtitle: 'Developer. Optimizer. Learner.',
-  copyright: '© 2020 | Kyiv, Ukraine',
-  disqusShortname: 'dospolov',
+  copyright: '© 2021 | Queenstown, New Zealand',
+  disqusShortname: 'neillloyd',
   postsPerPage: 20,
-  googleAnalyticsId: 'UA-6589522-7',
+  googleAnalyticsId: '',
   menu: [
     {
       label: 'CV',
@@ -18,17 +18,17 @@ module.exports = {
   author: {
     name: 'Neil Lloyd',
     photo: '/mesmall.jpg',
-    bio: 'Architect. Developer. Optimizer. Learner.',
+    bio: 'Architect. Developer. Optimizer. Leader.',
     contacts: {
       // don't remove fields, just make them empty string ''
       // https://github.com/gatsbyjs/gatsby/issues/2392
-      github: 'dospolov',
-      twitter: 'marat_dospolov',
+      github: '',
+      twitter: '',
       linkedin: 'neil-lloyd-nz',
-      telegram: 'dospolov',
-      instagram: 'dospolov',
-      facebook: 'dospolov',
-      email: '',
+      telegram: 'neilfalloyd',
+      instagram: '',
+      facebook: '',
+      email: 'neil@pointedfox.com',
       rss: '/rss.xml'
     }
   }

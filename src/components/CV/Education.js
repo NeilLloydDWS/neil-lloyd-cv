@@ -15,10 +15,18 @@ const Education = ({ education }) => (
           <Divider orientation="left" className={i === 0 && 'mt-0'}>
             {institution.period}
           </Divider>
-          <Col span={10}>
+          <Col span={4}>
+          <img
+                src={`/people/${institution.logo}`}
+                alt={institution.place}
+                className="max-w-3/4 inline"
+                height={institution.logoHeight}
+              />
+          </Col>
+          <Col span={12}>
             <h3>{institution.place}</h3>
           </Col>
-          <Col span={13}>
+          <Col span={8}>
             <h3>{institution.degree}</h3>
           </Col>
         </Row>

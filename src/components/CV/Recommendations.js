@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Col, Divider, Row, Avatar } from 'antd'
+import { getContactHref, getIcon } from '../../utils'
 
 const Recommendations = ({ recommendations }) => (
   <>
@@ -8,14 +9,26 @@ const Recommendations = ({ recommendations }) => (
       {recommendations.map((rec, i) => (
         <Row type="flex" justify="space-around" key={i} className="text-lg">
           <Divider orientation="left" className={i === 0 && 'mt-0'} />
-          <Col span={5}>
-            <h3 className="mb-0">{rec.name}</h3>
+          <Col span={5} >
+
+            <h3 className="mb-0">{rec.name} <a
+              className="text-black inline-block leading-none"
+              href={rec.linkedin}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              {getIcon('linkedin')}
+            </a></h3>
             <p>{rec.jobTitle}</p>
             <Avatar
               icon={<img src={`/people/${rec.photo}`} />}
               alt={rec.name}
               size={50}
             />
+
+
+
+
           </Col>
           <Col span={17}>
             <h3>
