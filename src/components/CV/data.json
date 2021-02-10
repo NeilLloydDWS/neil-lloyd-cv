@@ -173,6 +173,58 @@
   "experience": [
     {
       "company": {
+        "name": "Kaboodle Intranet",
+        "logoHeight": 30,
+        "logo": "kaboodle.png",
+        "period": "February 2015 - Current"
+      },
+      "projects": [
+        {
+          "name": "Product Development",
+          "logoHeight": 55,
+          "logo": "kdesktop.png",
+          "role": "Founder, Solution Architect",
+          "description": "Kaboodle is a full digital workplace experience based on our years of building intranets on SharePoint and Office 365. After many successful intranet projects, we found our clients wanted similar features with great branding and excellent user experiences.",
+          "stack": {
+            "me": [
+              "Various Azure Services",
+              "Angularjs",
+              "Office365",
+              "SharePoint",
+              "Microsoft Graph",
+              "Skype",
+              "Microsoft Teams",
+              "Form.IO",
+              "Azure DevOps"
+            ],
+            "all": ["Azure", "Angular"]
+          },
+          "achievements": [
+            "market research of emerging out-of-the-box intranets",
+            "product ideation and mocking",
+            "feasibility analysis and pricing analysis",
+            "high level solution design with focus on extensibility points for market differentiation",
+            "travel to Vietnam to interview potential off-shore development partners",
+            "off-shore development team recruitment",
+            "training and education of development team",
+            "established development best practices",
+            "established continuous integration and deployment pipelines",
+            "established modified Agile Scrum methodology",
+            "ownership of product backlogs and team management",
+            "pull request and code review participation",
+            "team member periodic reviews",
+            "branding and marketing strategy and planning",
+            "public website development and design oversight",
+            "creation of marketing and supporting documentation",
+            "establish and management of ongoing client support",
+            "management of feature and release cycle",
+            "product demonstration and business development"
+          ]
+        }
+      ]
+    },
+    {
+      "company": {
         "name": "AQUIBA",
         "logoHeight": 30,
         "logo": "aquiba.svg",
@@ -330,7 +382,7 @@
             "all": ["Vendor Management"]
           },
           "achievements": [
-            "traveled and live in Ho Chi Minh Vietnam",
+            "traveled and lived in Ho Chi Minh Vietnam",
             "used Vietnamese contacts to recruit team",
             "conducted technical and soft interviews",
             "upskilled the development team in Azure and integration principles",
@@ -343,7 +395,7 @@
         },
         {
           "name": "Development and Release of Integrations",
-          "logoHeight": 40,
+          "logoHeight": 25,
           "logo": "Microsoft_Azure.png",
           "role": "Architect, Developer",
           "description": "Design, development and implementation of integrations with most of Comvita's core systems.",

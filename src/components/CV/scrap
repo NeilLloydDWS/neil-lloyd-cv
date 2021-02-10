@@ -34,3 +34,42 @@
       label: 'Blog',
       path: '/blog'
     },
+
+
+    {
+      "company": {
+        "name": "AQUIBA",
+        "logoHeight": 30,
+        "logo": "aquiba.svg",
+        "period": "August 2020 - November 2020"
+      },
+      "projects": [
+        {
+          "name": "Review and Recommendations",
+          "logoHeight": 25,
+          "logo": "reviewrec.png",
+          "role": "Enterprise Architect - Reviewer",
+          "description": "Aquiba has an active radio integration program to deliver digital water meters with world beating metrology and excellent product durability which are compatible with Utility network infrastructure. The proposed future for Aquiba being at scale created a need to review their initial in-house implementation with a view to providing it with a degree of hardness and robustness to service existing customers while the commercial and digital strategy evolved into a fully integrated vertical offering in the utility industry.",
+          "stack": {
+            "me": [
+              "Various Azure Services",
+              "Nodejs",
+              "Express",
+              "BitBucket",
+              "Azure DevOps",
+              "PostgreSQL"
+            ],
+            "all": ["Azure"]
+          },
+          "achievements": [
+            "tenancy, account, and subscription topology. Highlighting structural, operational, cost and security issues",
+            "review of existing ad-hoc vm infrastructure",
+            "network vulnerabilities with emphasis on DDoS exposure from UDP",
+            "review of DevOps: repositories, development practices, feature / release cycles, code security, developer task management, IaaC and release pipelines",
+            "review of application and vm logging",
+            "review of logging differentiation: metrics, trace, dependency, exceptions, availability and requests",
+            "code review: SANS SWAT, CWE, code smell, refactoring and home-rolled cryptography"
+          ]
+        }
+      ]
+    },
