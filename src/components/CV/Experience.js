@@ -83,7 +83,7 @@ const Experience = ({ experience }) => (
                                 <img
                                   src={`/companies/${logo.logo}`}
                                   alt={subproject.name}
-                                  className="inline"
+                                  className="inline integration"
                                   height={logo.logoHeight}
                                 />
 
