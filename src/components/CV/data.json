@@ -372,8 +372,8 @@
       "projects": [
         {
           "name": "Enterprise Integration Strategy and Principles",
-          "logoHeight": 40,
-          "logo": "enterprisestrategy.jpg",
+          "logoHeight": 60,
+          "logo": "integrationstrategy.png",
           "role": "Enterprise Architect - Strategy Lead",
           "description": "Establishment of Comvita's Integration strategy and Enterprise development principles",
           "stack": {
@@ -415,7 +415,7 @@
         {
           "name": "DDD and Microservice Core [The Core]",
           "logoHeight": 40,
-          "logo": "asf.svg",
+          "logo": "sfk8.png",
           "role": "Enterprise Architect & Business Analyst",
           "description": "In addition to standard integration requirements Comvita also wanted to increase organisational agility by moving away from a BBoM approach to a DDD based Microservice core [The Core].  We used a canonical approach to create central core microservices which were only interfaced with via an API and messaging and eventing buses. The Core is a combination of Service Fabric Actor Model and stateless services in an Azure Kubernetes Cluster. Services are primarily .NetCore with any external state in CosmosDB.",
           "stack": {
@@ -546,7 +546,7 @@
               "logoHeight": 35,
               "logo": "sql.png",
               "role": "Enterprise Architect, Developer",
-              "integrationLogos": [{ "logo": "sql.png", "logoHeight": 25 }],
+              "integrationLogos": [{ "logo": "sql.png", "logoHeight": 35 }],
               "description": "Managing hives and sites is a key function for Comvita. Comvita have a bespoke legacy Apiary Management System with limited integration options. We developed integration to legacy system via the databse.",
               "stack": ["Drums", "Sample", "Result", "Supplier"]
             },
@@ -568,7 +568,7 @@
               "logoHeight": 35,
               "logo": "salesforce.png",
               "role": "Enterprise Architect, Developer",
-              "integrationLogos": [{ "logo": "salesforce.png", "logoHeight": 25 }],
+              "integrationLogos": [{ "logo": "salesforce.png", "logoHeight": 35 }],
               "description": "B2B and B2C Customer relationships are managed in SalesForce. We integrated SalesForce with The Core.",
               "stack": ["Customer", "Sales Order", "Invoice", "Payment", "Loyalty"]
             },
@@ -578,11 +578,11 @@
               "logo": "oracleatg.png",
               "role": "Enterprise Architect, Developer",
               "integrationLogos": [
-                { "logo": "oracleatg.png", "logoHeight": 25 },
-                { "logo": "amazon.png", "logoHeight": 25 },
-                { "logo": "tmall.png", "logoHeight": 35 },
-                { "logo": "koala.png", "logoHeight": 25 },
-                { "logo": "commercetools.png", "logoHeight": 25 }
+                { "logo": "oracleatg.png", "logoHeight": 35 },
+                { "logo": "amazon.png", "logoHeight": 30 },
+                { "logo": "tmall.png", "logoHeight": 45 },
+                { "logo": "koala.png", "logoHeight": 35 },
+                { "logo": "commercetools.png", "logoHeight": 30 }
               ],
               "description": "Comvita sell direct to market via a global Oracle ATG commerce platform. In addition they sell via online marketplaces and also aggregators. We did a number of different types of integrations with Oracle ATG, Amazon, TMall, JD.com, Koala and Commerce Tools with The Core",
               "stack": [
@@ -602,8 +602,8 @@
               "logo": "webdam.png",
               "role": "Enterprise Architect, Developer",
               "integrationLogos": [
-                { "logo": "webdam.png", "logoHeight": 25 },
-                { "logo": "contentful.png", "logoHeight": 15 }
+                { "logo": "webdam.png", "logoHeight": 35 },
+                { "logo": "contentful.png", "logoHeight": 25 }
               ],
               "description": "Core media assets are stored and curated in WebDam. Marketing and web content is available from Contentful. We developed integration with these in a point to point fashion with LOB systems."
             },
@@ -612,7 +612,7 @@
               "logoHeight": 35,
               "logo": "salesforce.png",
               "role": "Enterprise Architect, Developer",
-              "integrationLogos": [{ "logo": "ai.png", "logoHeight": 25 }],
+              "integrationLogos": [{ "logo": "ai.png", "logoHeight": 30 }],
               "description": "Comvita manage their manufacturing and supply side planning with Adaptive Insights. We integrated AI with The Core.",
               "stack": ["GL Codes", "Sales Order", "Distribution Order", "Chart Account"]
             },
@@ -641,9 +641,9 @@
               "role": "Enterprise Architect, Developer",
               "integrationLogos": [
                 { "logo": "yammer.png", "logoHeight": 25 },
-                { "logo": "teams.png", "logoHeight": 25 },
+                { "logo": "teams.png", "logoHeight": 45 },
                 { "logo": "outlook.png", "logoHeight": 25 },
-                { "logo": "twitter.png", "logoHeight": 25 }
+                { "logo": "twitter.png", "logoHeight": 40 }
               ],
               "description": "Comvita use a variety of social and communication tools. We integrated these with The Core and LOB Systems."
             }
@@ -688,6 +688,107 @@
             "review of application and vm logging",
             "review of logging differentiation: metrics, trace, dependency, exceptions, availability and requests",
             "code review: SANS SWAT, CWE, code smell, refactoring and home-rolled cryptography"
+          ],
+          "subprojects": []
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "CloudInc",
+        "logoHeight": 30,
+        "logo": "cloudinc.png",
+        "period": "Cloud Inc: July 2012 - July 2017"
+      },
+      "projects": [
+        {
+          "name": "NZCEO Teachers Portal and Automated School Registration",
+          "logoHeight": 35,
+          "logo": "nzceo.png",
+          "role": "Solution Architect & Developer",
+          "description": "The New Zealand Catholic Education Office [NZCEO] lead the international Catholic community with the launch of an online education network today that will give over 249 schools and 4,000 teachers the ability to share resources and collaborate in new ways. As the founder of Cloud Inc we worked with Microsoft New Zealand and the New Zealand Catholic Education Office (NZCEO) to develop an online education network for 4,000 teachers to give the ability to share resources and collaborate in new ways. The online services portal was built on Microsoft’s Office 365 cloud platform and incorporates collaboration tools such as Yammer, shared workspaces and catholic education resources.",
+          "stack": {
+            "me": [
+              "Azure AD",
+              "Angular",
+              "Azure SQL",
+              "Office 365 [SharePoint,Yammer,AD]",
+              "Azure App Services",
+              "Twilio",
+              "SendGrid",
+              "PowerShell"
+            ],
+            "all": ["Azure", "Angular"]
+          },
+          "achievements": [
+            "collaborated with Microsoft NZ Education Team and NZCEO",
+            "extracted requirements with operational and educational staff",
+            "developed Azure AD based online registration process for schools and teachers to use existing logins",
+            "developed central portal for NZCEO",
+            "developed automated roll out of school based portals",
+            "created documentation and training",
+            "presented at education conference with Minister and Evan Blackman from Microsoft for release of portal"
+          ],
+          "subprojects": []
+        },
+        {
+          "name": "Fletcher Construction: Mackays to Peka Peka [M2PP]",
+          "logoHeight": 55,
+          "logo": "fletcher.jpg",
+          "role": "Solution Architect & Developer",
+          "description": "M2PP is an $630 million, 18km four-lane expressway that takes State Highway 1 along the Kāpiti Coast, in the Wellington Northern Corridor. We completed a very large SharePoint based custom document management system based on the Work Breakdown Structure [WBS] for the project.",
+          "stack": {
+            "me": ["Office 365 [SharePoint,Yammer,AD]", "PowerShell"],
+            "all": ["SharePoint", "PowerShell"]
+          },
+          "achievements": [
+            "established project management office for the team",
+            "PowerShell development of entire SharePoint server and Application deployment using Fletcher Construction Excel based WBS",
+            "deployment of DEV/UAT and PROD SharePoint environments",
+            "deployment of solutions to environments",
+            "training and documentation for the project team"
+          ],
+          "subprojects": []
+        },
+        {
+          "name": "Human Rights Commission: Intranet and Records Management",
+          "logoHeight": 45,
+          "logo": "hrc.png",
+          "role": "Solution Architect & Developer",
+          "description": "The Human Rights Commission (HRC) was set up in 1977 with the goal of promoting and protecting the human rights of all people in Aotearo New Zealand. The HRC wanted a modern cloud based Digital Workplace, that included intranet, document management and records management functionality (PRA grade compliance).  All documents and records were previously saved to file shares.",
+          "stack": {
+            "me": ["Office 365 [SharePoint,Yammer,AD]", "PowerShell", "AvePoint"],
+            "all": ["SharePoint", "PowerShell", "AvePoint"]
+          },
+          "achievements": [
+            "implemented the Kaboodle intranet as their digital workplace platform",
+            "created PowerShell scripting to deploy SharePoint Topology consistently between DEV,UAT and PROD",
+            "implemented SharePoint online and configured to meet the HRC’s document management and collaboration requirements",
+            "worked with records management team to ensure PRA compliance",
+            "implemented and configured AvePoint’s RevIM records management solution",
+            "migrated all existing documents to new SharePoint platform"
+          ],
+          "subprojects": []
+        },
+        {
+          "name": "Airways NZ: Intranet and Records Management, Document Control System",
+          "logoHeight": 45,
+          "logo": "airways.png",
+          "role": "Solution Architect & Developer",
+          "description": "Airways is New Zealand’s air navigation service provider. Their staff of 780 deliver air navigation and air traffic management consultancy and training services throughout New Zealand and in over 65 countries. Airways had a number of existing intranet and document management capabilities hosted on-premise in out-dated technology. The existing solutions were heavily customized and complex. To meet their Cloud Strategy goals they needed a clear path to the cloud. Overly complex information architecture and poor user experiences meant they weren’t getting the collaboration and adoption required. ",
+          "stack": {
+            "me": ["Office 365 [SharePoint,Yammer,AD]", "PowerShell", "AvePoint", "Angular"],
+            "all": ["SharePoint", "PowerShell", "AvePoint", "Angular"]
+          },
+          "achievements": [
+            "implemented the Kaboodle intranet as their digital workplace platform",
+            "created PowerShell scripting to deploy SharePoint Topology consistently between DEV,UAT and PROD",
+            "implemented SharePoint online and configured to meet the HRC’s document management and collaboration requirements",
+            "worked with records management team to ensure PRA compliance",
+            "implemented and configured AvePoint’s RevIM records management solution",
+            "migrated all existing documents to new SharePoint platform",
+            "integrated existing custom applications with Kaboodle",
+            "created a web based Document Control System for managing their controlled documents such as Radar Tower maintenance and design documents"
           ],
           "subprojects": []
         }
