@@ -219,7 +219,8 @@
             "establish and management of ongoing client support",
             "management of feature and release cycle",
             "product demonstration and business development"
-          ]
+          ],
+          "subprojects": []
         }
       ]
     },
@@ -252,11 +253,12 @@
             "tenancy, account, and subscription topology. Highlighting structural, operational, cost and security issues",
             "review of existing ad-hoc vm infrastructure",
             "network vulnerabilities with emphasis on DDoS exposure from UDP",
-            "review of DevOps: repositories, development practices, feature / release cycles, code security, developer task management, IaaC and release pipelines",
+            "review of DevOps: repositories, development practices, feature / release cycles, code security, developer task management, IaC and release pipelines",
             "review of application and vm logging",
             "review of logging differentiation: metrics, trace, dependency, exceptions, availability and requests",
             "code review: SANS SWAT, CWE, code smell, refactoring and home-rolled cryptography"
-          ]
+          ],
+          "subprojects": []
         },
         {
           "name": "Phase 1: Core Implementation",
@@ -285,19 +287,20 @@
             "security: implemented RBAC, MFA, PIM. Security Centre and its recommendations",
             "implemented Azure Key Vault",
             "vm's: hardened with JIT through PIM, added anti-malware, encrypted disks, added performance monitoring",
-            "implemented CI/CD via IaaC for VM's",
+            "implemented CI/CD via IaC for VM's",
             "implemented scale sets",
             "upgraded DDoS on VNet",
-            "DevOps: implemented full IaaC via Pulumi, Blueprints and ARM. Centralised repositories on Azure DevOps. Implemented GitFlow Branching and Pull Requests",
+            "DevOps: implemented full IaC via Pulumi, Blueprints and ARM. Centralised repositories on Azure DevOps. Implemented GitFlow Branching and Pull Requests",
             "logging and monitoring: implemented AppInsights, Azure Monitor, VM and network logging via Azure Monitor"
-          ]
+          ],
+          "subprojects": []
         },
         {
           "name": "Phase 2: Kubernetes, Istio, APIM",
           "logoHeight": 25,
           "logo": "kubernetes.png",
           "role": "Enterprise Architect & Implementer",
-          "description": "Phase 2 was the transition to Kubernetes and a micro-service architecture. It also included the creation of a developer portal for the Aquiba Utility customers to access Water Meter data and management.",
+          "description": "Phase 2 was the transition to Kubernetes and a microservice architecture. It also included the creation of a developer portal for the Aquiba Utility customers to access Water Meter data and management.",
           "stack": {
             "me": [
               "Kubernetes",
@@ -324,7 +327,8 @@
             "exposed public UDP endpoint to Water Meters",
             "implmented APIM and WAF for their Customer API",
             "created Aquiba Developer Portal for Utility Customers"
-          ]
+          ],
+          "subprojects": []
         },
         {
           "name": "Phase 3: Service Separation",
@@ -341,7 +345,8 @@
             "isolated and optimised API code",
             "created CI/CD pipelines",
             "deployed to Kubernetes"
-          ]
+          ],
+          "subprojects": []
         }
       ]
     },
@@ -369,7 +374,8 @@
             "high level architecture design",
             "educated Comvita IT Team",
             "worked with stakeholders"
-          ]
+          ],
+          "subprojects": []
         },
         {
           "name": "Integration Team Establishment",
@@ -391,73 +397,296 @@
             "established modified Agile Scrum methodology",
             "integrated ticketing and support systems into workflow",
             "supported existing MuleSoft integrations"
-          ]
+          ],
+          "subprojects": []
         },
         {
-          "name": "Development and Release of Integrations",
+          "name": "DDD and Microservice Core [The Core]",
+          "logoHeight": 40,
+          "logo": "asf.svg",
+          "role": "Enterprise Architect & Business Analyst",
+          "description": "In addition to standard integration requirements Comvita also wanted to increase organisational agility by moving away from a BBoM approach to a DDD based Microservice core [The Core].  We used a canonical approach to create central core microservices which were only interfaced with via an API and messaging and eventing buses. The Core is a combination of Service Fabric Actor Model and stateless services in an Azure Kubernetes Cluster. Services are primarily .NetCore with any external state in CosmosDB.",
+          "stack": {
+            "me": [
+              "DDD",
+              "Business Analysis",
+              "Event Storming",
+              "Whirlpool",
+              "Azure Service Fabric",
+              ""
+            ],
+            "all": ["DDD"]
+          },
+          "achievements": [
+            "education of the wider group on Domain Driven Design [DDD] and microservices",
+            "established project tools and practices for the team",
+            "conducted Event Storming and Whirlpool workshops",
+            "high level solution architecture",
+            "planning, budgeting, managing of projects",
+            "established CQRS pattern",
+            "established event driven patterns",
+            "established APIM and messaging patterns",
+            "created and scaled clusters",
+            "created IaC for The Core via Pulumi and ARM",
+            "created CI/CD pipelines with GitFlow branching model",
+            "participated in pull requests and code reviews"
+          ],
+          "subprojects": []
+        },
+        {
+          "name": "Development and Release of Integrations with The Core",
           "logoHeight": 25,
           "logo": "Microsoft_Azure.png",
           "role": "Architect, Developer",
-          "description": "Design, development and implementation of integrations with most of Comvita's core systems.",
+          "description": "An anti-corruption layer was created for each LOB system. Systems did not interact directly with each other but rather via the core on an event driven basis. This enabled a CQRS pattern with asynchronous eventual consistency between all systems with a unified central core. All new development and interaction was via the Core API doing away with point to point integration. Design, development and implementation of integrations with most of Comvita's core systems.",
           "stack": {
-            "me": [
-              "MS Teams",
-              "Azure SQL",
-              "Azure CosmosDB",
-              "Azure PostgreSQL",
-              "DataLake",
-              "Azure DataWarehouse",
-              "Azure Storage",
-              "Azure DataBricks",
-              "Azure Service Fabric",
-              "Kubernetes",
-              "Istio",
-              "SOAP",
-              "REST",
-              "GraphQL",
-              "APIM",
-              "Kafka",
-              "Azure Service Bus",
-              "Angular.js",
-              "Gatsby",
-              "Next",
-              "Nodejs",
-              "Express",
-              "Bootstrap",
-              "Chakra",
-              "FabricUI",
-              "Ionic",
-              "Contentful",
-              "CommerceTools",
-              "Function Apps",
-              "Logic Apps",
-              "Workflow Core",
-              "Azure DataFactory",
-              "Office 365"
-            ],
-            "all": ["Azure", "Azure Service Fabric", "Kubernetes"]
+            "me": [],
+            "all": []
           },
           "achievements": [
-            "ERP integrations: QAD, Kingdee",
-            "3PL integrations: MainFreight, DPD, Amazon",
-            "Loyalty integrations: XGate",
-            "POS integrations: CBR and TTRetail",
-            "Identity integrations: Azure AD, AD, BambooHR, Salesforce",
-            "HR integration: BambooHR",
-            "Health and Safety integrations: She Assure",
-            "Apiary Management integration: Comvita AMS",
-            "Quality integrations: OnQ, Analytica, Assure Quality",
-            "CRM integration: Salesforce",
-            "Commerce integrations: Oracle ATG, QAD, Commerce Tools, Amazon, TMall, JD.com, Koala",
-            "Content Management integrations: WebDam and Contentful",
-            "Planning and Analytics integrations: Adaptive Insights, PowerBI, DataBricks",
-            "Supplier management integration: Esker",
-            "EDM integration: Marketo",
-            "Manufacturing: Scada",
-            "Document management integrations: Kaboodle Intranet and Office 365",
-            "Communication tool integrations: Yammer, Teams, Outlook",
-            "Social integrations: Twitter and Facebook"
+            "co-ordinated with major stakeholders of business domains",
+            "designed of anti-corruption layers",
+            "documented Enterprise Messaging Patterns for developers",
+            "developed anti-corruption layers for developers to follow",
+            "co-ordinated, documented and scheduled deployments with zero downtime",
+            "designed and implemented monitoring systems"
+          ],
+          "subprojects": [
+            {
+              "name": "ERP Integrations",
+              "logoHeight": 35,
+              "logo": "QAD.png",
+              "role": "Enterprise Architect, Developer",
+              "integrationLogos": [{ "logo": "QAD.png", "logoHeight": 35 },{ "logo": "kingdee.png", "logoHeight": 20 }],
+              "description": "Kingdee ERP used by Comvita China JV for warehouse operations and typical logistics, sales, customer and other ERP functions. QAD ERP is used for rest of world operations including local manufacturing and global accounting and financials.",
+              "stack": [
+                "Sales Order",
+                "Inventory",
+                "Distribution Order",
+                "Work Order",
+                "Product Item",
+                "Honey Sample",
+                "Drum",
+                "Payment",
+                "Customer",
+                "Invoice",
+                "Purchase Order",
+                "Supplier"
+              ]
+            },
+            {
+              "name": "3PL Integrations",
+              "logoHeight": 25,
+              "logo": "mainfreight.png",
+              "role": "Enterprise Architect, Developer",
+              "integrationLogos": [{ "logo": "mainfreight.png", "logoHeight": 25 },{ "logo": "dpd.png", "logoHeight": 25 },{ "logo": "spscommerce.png", "logoHeight": 35 }],
+              "description": "Comvita use MainFreight, DPD and SPSCommerce among others for their third party logistics. We developed inward and outward integrations in varying protocols.",
+              "stack": [
+                "Sales Order",
+                "Inward Order",
+                "Distribution Order",
+                "Inward Order Receipt",
+                "Outward Order Confirmation",
+                "Stock Report"
+              ]
+            },
+            {
+              "name": "Loyalty Integration",
+              "logoHeight": 25,
+              "logo": "xgate.png",
+              "role": "Enterprise Architect, Developer",
+              "integrationLogos": [{ "logo": "xgate.png", "logoHeight": 25 }],
+              "description": "Comvita use XGate for their Asian based Customer Loyalty systems . We developed integration with Sales, CRM and ERP systems via The Core.",
+              "stack": [
+                "Customer",
+                "Sales Order",
+                "Loyalty"
+              ]
+            },
+            {
+              "name": "POS Integrations",
+              "logoHeight": 35,
+              "logo": "cbr.png",
+              "role": "Enterprise Architect, Developer",
+              "integrationLogos": [{ "logo": "cbr.png", "logoHeight": 25 },{ "logo": "mi9.png", "logoHeight": 25 }],
+              "description": "Comvita physical stores are primarily in Asia and use CBR and TTRetail POS systems. We integrated these with global ERP, CRM, Reporting and Logistics systems via The Core.",
+              "stack": [
+                "Customer",
+                "Sales Order",
+                "Distribution Order",
+                "Inventory"
+              ]
+            },
+            {
+              "name": "HR and H&S Integrations",
+              "logoHeight": 35,
+              "logo": "bamboohr.png",
+              "role": "Enterprise Architect, Developer",
+              "integrationLogos": [{ "logo": "bamboohr.png", "logoHeight": 20 },{ "logo": "she.png", "logoHeight": 20 }],
+              "description": "Comvita use BambooHR for most of its Human Resource functions. Health and Safety is streamlined with She Assure. These were integrated with The Core.",
+              "stack": [
+                "Employee",
+                "User"
+              ]
+            },
+            {
+              "name": "Apiary Management Integration",
+              "logoHeight": 35,
+              "logo": "sql.png",
+              "role": "Enterprise Architect, Developer",
+              "integrationLogos": [{ "logo": "sql.png", "logoHeight": 25 }],
+              "description": "Managing hives and sites is a key function for Comvita. Comvita have a bespoke legacy Apiary Management System with limited integration options. We developed integration to legacy system via the databse.",
+              "stack": [
+                "Drums",
+                "Sample",
+                "Result",
+                "Supplier"
+              ]
+            },
+            {
+              "name": "Quality Integration",
+              "logoHeight": 35,
+              "logo": "quality.png",
+              "role": "Enterprise Architect, Developer",
+              "integrationLogos": [{ "logo": "quality.png", "logoHeight": 25 },{ "logo": "assurequality.png", "logoHeight": 20 },{ "logo": "analytica.png", "logoHeight": 35 }],
+              "description": "Comvita employ rigorous testing and quality procedures to deliver the highest quality honey products. We integrated the OnQ Laboratory system with The Core.",
+              "stack": [
+                "Drums",
+                "Sample",
+                "Result",
+                "Supplier"
+              ]
+            },
+            {
+              "name": "CRM Integration",
+              "logoHeight": 35,
+              "logo": "salesforce.png",
+              "role": "Enterprise Architect, Developer",
+              "integrationLogos": [{ "logo": "salesforce.png", "logoHeight": 25 }],
+              "description": "B2B and B2C Customer relationships are managed in SalesForce. We integrated SalesForce with The Core.",
+              "stack": [
+                "Customer",
+                "Sales Order",
+                "Invoice",
+                "Payment",
+                "Loyalty"
+              ]
+            },
+            {
+              "name": "Commerce Integrations",
+              "logoHeight": 35,
+              "logo": "oracleatg.png",
+              "role": "Enterprise Architect, Developer",
+              "integrationLogos": [{ "logo": "oracleatg.png", "logoHeight": 25 },{ "logo": "amazon.png", "logoHeight": 25 },{ "logo": "tmall.png", "logoHeight": 35 },{ "logo": "koala.png", "logoHeight": 25 },{ "logo": "commercetools.png", "logoHeight": 25 }],
+              "description": "Comvita sell direct to market via a global Oracle ATG commerce platform. In addition they sell via online marketplaces and also aggregators. We did a number of different types of integrations with Oracle ATG, Amazon, TMall, JD.com, Koala and Commerce Tools with The Core",
+              "stack": [
+                "Replenishment",
+                "Sales Order",
+                "Return",
+                "Inventory",
+                "Fulfillment",
+                "Customer",
+                "Invoice",
+                "Payment"
+              ]
+            },
+            {
+              "name": "Content Integrations",
+              "logoHeight": 35,
+              "logo": "webdam.png",
+              "role": "Enterprise Architect, Developer",
+              "integrationLogos": [{ "logo": "webdam.png", "logoHeight": 25 },{ "logo": "contentful.png", "logoHeight": 15 }],
+              "description": "Core media assets are stored and curated in WebDam. Marketing and web content is available from Contentful. We developed integration with these in a point to point fashion with LOB systems."              
+            },
+            {
+              "name": "Planning and Analytics Integration",
+              "logoHeight": 35,
+              "logo": "salesforce.png",
+              "role": "Enterprise Architect, Developer",
+              "integrationLogos": [{ "logo": "ai.png", "logoHeight": 25 }],
+              "description": "Comvita manage their manufacturing and supply side planning with Adaptive Insights. We integrated AI with The Core.",
+              "stack": [
+                "GL Codes",
+                "Sales Order",
+                "Distribution Order",
+                "Chart Account"
+              ]
+            },
+            {
+              "name": "Supplier Integration",
+              "logoHeight": 35,
+              "logo": "esker.png",
+              "role": "Enterprise Architect, Developer",
+              "integrationLogos": [{ "logo": "esker.png", "logoHeight": 25 }],
+              "description": "Comvita manage supplier payments with Esker. We integrated Esker with The Core.",
+              "stack": [
+                "Invoice",
+                "Supplier"
+              ]
+            },
+            {
+              "name": "Manufacturing Integration",
+              "logoHeight": 35,
+              "logo": "esker.png",
+              "role": "Enterprise Architect, Developer",
+              "integrationLogos": [{ "logo": "scada.jpg", "logoHeight": 25 }],
+              "description": "Comvita manage moisture content, weight and formulation with various SCADA. We integrated the SCADA work orders with The Core.",
+              "stack": [
+                "Work Order",
+                "Drum"
+              ]
+            },
+            {
+              "name": "Other Minor Integrations",
+              "logoHeight": 35,
+              "logo": "esker.png",
+              "role": "Enterprise Architect, Developer",
+              "integrationLogos": [{ "logo": "yammer.png", "logoHeight": 25 },{ "logo": "teams.png", "logoHeight": 25 },{ "logo": "outlook.png", "logoHeight": 25 },{ "logo": "twitter.png", "logoHeight": 25 }],
+              "description": "Comvita use a variety of social and communication tools. We integrated these with The Core and LOB Systems."
+            }
           ]
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "VANMAN",
+        "logoHeight": 30,
+        "logo": "vanman.png",
+        "period": "April 2017 - Current"
+      },
+      "projects": [
+        {
+          "name": "Web & Mobile Application",
+          "logoHeight": 85,
+          "logo": "vanmanmobile.png",
+          "role": "Solution Architect",
+          "description": "VanMan are a Wellington based removalist company offering superior service and scheduling. We developed a Web Application and Mobile Application to streamline operations for adminstrative and field workers.",
+          "stack": {
+            "me": [
+              "Various Azure Services",
+              "AspNetCore",
+              "Angular",
+              "Azure SQL",
+              "Azure DevOps",
+              "Ionic",
+              "Auth0",
+              "Xero",
+              "Twilio",
+              "SendGrid"
+            ],
+            "all": [".Net", "Angular"]
+          },
+          "achievements": [
+            "tenancy, account, and subscription topology. Highlighting structural, operational, cost and security issues",
+            "review of existing ad-hoc vm infrastructure",
+            "network vulnerabilities with emphasis on DDoS exposure from UDP",
+            "review of DevOps: repositories, development practices, feature / release cycles, code security, developer task management, IaC and release pipelines",
+            "review of application and vm logging",
+            "review of logging differentiation: metrics, trace, dependency, exceptions, availability and requests",
+            "code review: SANS SWAT, CWE, code smell, refactoring and home-rolled cryptography"
+          ],
+          "subprojects": []
         }
       ]
     }
@@ -588,7 +817,7 @@
     },
     {
       "year": "2018",
-      "description": "We based our family in Ho Chi Minh City for the year for work with various trips around asia.",
+      "description": "We based our family in Ho Chi Minh City for the year for work with various trips around Asia.",
       "countries": [
         {
           "place": "Vietnam",

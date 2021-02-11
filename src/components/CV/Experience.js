@@ -20,8 +20,8 @@ const Experience = ({ experience }) => (
                 />
               </div>
             ) : (
-              <h2 className="text-2xl">{item.company.name}</h2>
-            )}
+                <h2 className="text-2xl">{item.company.name}</h2>
+              )}
           </Col>
           <Col xs={24} sm={24} md={20} lg={20} xl={20}>
             {item.projects.map((project, i) => (
@@ -31,7 +31,7 @@ const Experience = ({ experience }) => (
                     <img
                       src={`/companies/${project.logo}`}
                       alt={project.name}
-                      className="max-w-3/4 inline"
+                      className="inline"
                       height={project.logoHeight}
                     />
                   </Col>
@@ -47,6 +47,7 @@ const Experience = ({ experience }) => (
                       ))}
                     </ul>
                   )}
+
                   <div className="py-1">
                     {project.stack.me &&
                       project.stack.me.map(tech => (
@@ -61,7 +62,71 @@ const Experience = ({ experience }) => (
                         </Tag>
                       ))}
                   </div>
+
+                  {project.subprojects.map((subproject, x) => (
+                    <><Divider />
+                      <Row type="flex" key={project.name}>
+
+                        <Col span={project.logo ? 19 : 24} className="text-lg">
+                          <h3>{subproject.name}</h3>
+                          <h4>{subproject.role}</h4>
+                        </Col>
+
+                      </Row>
+                      <Row type="flex" key={project.name}>
+
+                        {subproject.logo && (
+                          <Col xs={24} sm={24} md={20} lg={20} xl={20}>
+                            <div className="py-1">
+                              {subproject.integrationLogos.map((logo, x) => (
+
+                                <img
+                                  src={`/companies/${logo.logo}`}
+                                  alt={subproject.name}
+                                  className="inline"
+                                  height={logo.logoHeight}
+                                />
+
+
+                              ))}</div>
+                          </Col>
+                        )}
+                      </Row>
+                      <Row type="flex" key={project.name}>
+                        <Col xs={24} sm={24} md={20} lg={20} xl={20}>
+                          <p>{subproject.description}</p>
+                          {subproject.achievements && (
+                            <ul>
+                              {subproject.achievements.map(achievement => (
+                                <li key={achievement}>{achievement}</li>
+                              ))}
+                            </ul>
+                          )}
+                          <div className="py-1">
+                          {subproject.stack && (<h4>Main Aggregate Roots:</h4>)}
+                            {subproject.stack &&
+                              subproject.stack.map(tech => (
+                                
+                                <Tag color="#0B9B00" key={tech} className="mb-1 text-base">
+                                  {tech}
+                                </Tag>
+                              ))}
+                          </div><div className="py-1">
+                            {/* {subproject.integrationLogos.map((logo, x) => (
+                             <img
+                             src={`/companies/${logo.logo}`}
+                             alt={subproject.name}
+                             className="inline"
+                             height={logo.logoHeight}
+                           />
+                          ))} */}
+                          </div>
+                        </Col>
+                      </Row>
+                    </>
+                  ))}
                 </Col>
+
                 {item.projects.length - 1 > i && <Divider />}
               </Row>
             ))}
