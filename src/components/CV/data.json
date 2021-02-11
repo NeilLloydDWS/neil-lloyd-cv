@@ -119,17 +119,7 @@
     "hard": {
       "featured": ["Azure", "Azure DevOps", "Kubernetes", ".Net"],
       "other": [
-        "MuleSoft",
-        "CloudHub",
-        "Azure DevOps",
-        "Jenkins",
-        "Jira",
-        "Confluence",
-        "Notion",
-        "GIT[Bitbucket,GitHub,TFS]",
-        "Linear",
-        "Slack",
-        "MS Teams",
+        "C#",
         "Azure SQL",
         "Azure CosmosDB",
         "Azure PostgreSQL",
@@ -166,7 +156,29 @@
         "Logic Apps",
         "Workflow Core",
         "Azure DataFactory",
-        "Office 365"
+        "Office 365",
+        "ARM",
+        "RBAC",
+        "MFA",
+        "PIM",
+        "Azure Security Centre",
+        "Azure Key Vault",
+        "Pulumi",
+        "Azure DevOps",
+        "GitFlow",
+        "Azure Monitor",
+        "App Insights",
+        "MuleSoft",
+        "CloudHub",
+        "Azure DevOps",
+        "Jenkins",
+        "Jira",
+        "Confluence",
+        "Notion",
+        "GIT[Bitbucket,GitHub,TFS]",
+        "Linear",
+        "Slack",
+        "MS Teams"
       ]
     }
   },
@@ -412,8 +424,7 @@
               "Business Analysis",
               "Event Storming",
               "Whirlpool",
-              "Azure Service Fabric",
-              ""
+              "Azure Service Fabric"
             ],
             "all": ["DDD"]
           },
@@ -457,7 +468,10 @@
               "logoHeight": 35,
               "logo": "QAD.png",
               "role": "Enterprise Architect, Developer",
-              "integrationLogos": [{ "logo": "QAD.png", "logoHeight": 35 },{ "logo": "kingdee.png", "logoHeight": 20 }],
+              "integrationLogos": [
+                { "logo": "QAD.png", "logoHeight": 35 },
+                { "logo": "kingdee.png", "logoHeight": 20 }
+              ],
               "description": "Kingdee ERP used by Comvita China JV for warehouse operations and typical logistics, sales, customer and other ERP functions. QAD ERP is used for rest of world operations including local manufacturing and global accounting and financials.",
               "stack": [
                 "Sales Order",
@@ -479,7 +493,11 @@
               "logoHeight": 25,
               "logo": "mainfreight.png",
               "role": "Enterprise Architect, Developer",
-              "integrationLogos": [{ "logo": "mainfreight.png", "logoHeight": 25 },{ "logo": "dpd.png", "logoHeight": 25 },{ "logo": "spscommerce.png", "logoHeight": 35 }],
+              "integrationLogos": [
+                { "logo": "mainfreight.png", "logoHeight": 25 },
+                { "logo": "dpd.png", "logoHeight": 25 },
+                { "logo": "spscommerce.png", "logoHeight": 35 }
+              ],
               "description": "Comvita use MainFreight, DPD and SPSCommerce among others for their third party logistics. We developed inward and outward integrations in varying protocols.",
               "stack": [
                 "Sales Order",
@@ -497,37 +515,31 @@
               "role": "Enterprise Architect, Developer",
               "integrationLogos": [{ "logo": "xgate.png", "logoHeight": 25 }],
               "description": "Comvita use XGate for their Asian based Customer Loyalty systems . We developed integration with Sales, CRM and ERP systems via The Core.",
-              "stack": [
-                "Customer",
-                "Sales Order",
-                "Loyalty"
-              ]
+              "stack": ["Customer", "Sales Order", "Loyalty"]
             },
             {
               "name": "POS Integrations",
               "logoHeight": 35,
               "logo": "cbr.png",
               "role": "Enterprise Architect, Developer",
-              "integrationLogos": [{ "logo": "cbr.png", "logoHeight": 25 },{ "logo": "mi9.png", "logoHeight": 25 }],
+              "integrationLogos": [
+                { "logo": "cbr.png", "logoHeight": 25 },
+                { "logo": "mi9.png", "logoHeight": 25 }
+              ],
               "description": "Comvita physical stores are primarily in Asia and use CBR and TTRetail POS systems. We integrated these with global ERP, CRM, Reporting and Logistics systems via The Core.",
-              "stack": [
-                "Customer",
-                "Sales Order",
-                "Distribution Order",
-                "Inventory"
-              ]
+              "stack": ["Customer", "Sales Order", "Distribution Order", "Inventory"]
             },
             {
               "name": "HR and H&S Integrations",
               "logoHeight": 35,
               "logo": "bamboohr.png",
               "role": "Enterprise Architect, Developer",
-              "integrationLogos": [{ "logo": "bamboohr.png", "logoHeight": 20 },{ "logo": "she.png", "logoHeight": 20 }],
+              "integrationLogos": [
+                { "logo": "bamboohr.png", "logoHeight": 20 },
+                { "logo": "she.png", "logoHeight": 20 }
+              ],
               "description": "Comvita use BambooHR for most of its Human Resource functions. Health and Safety is streamlined with She Assure. These were integrated with The Core.",
-              "stack": [
-                "Employee",
-                "User"
-              ]
+              "stack": ["Employee", "User"]
             },
             {
               "name": "Apiary Management Integration",
@@ -536,26 +548,20 @@
               "role": "Enterprise Architect, Developer",
               "integrationLogos": [{ "logo": "sql.png", "logoHeight": 25 }],
               "description": "Managing hives and sites is a key function for Comvita. Comvita have a bespoke legacy Apiary Management System with limited integration options. We developed integration to legacy system via the databse.",
-              "stack": [
-                "Drums",
-                "Sample",
-                "Result",
-                "Supplier"
-              ]
+              "stack": ["Drums", "Sample", "Result", "Supplier"]
             },
             {
               "name": "Quality Integration",
               "logoHeight": 35,
               "logo": "quality.png",
               "role": "Enterprise Architect, Developer",
-              "integrationLogos": [{ "logo": "quality.png", "logoHeight": 25 },{ "logo": "assurequality.png", "logoHeight": 20 },{ "logo": "analytica.png", "logoHeight": 35 }],
+              "integrationLogos": [
+                { "logo": "quality.png", "logoHeight": 25 },
+                { "logo": "assurequality.png", "logoHeight": 20 },
+                { "logo": "analytica.png", "logoHeight": 35 }
+              ],
               "description": "Comvita employ rigorous testing and quality procedures to deliver the highest quality honey products. We integrated the OnQ Laboratory system with The Core.",
-              "stack": [
-                "Drums",
-                "Sample",
-                "Result",
-                "Supplier"
-              ]
+              "stack": ["Drums", "Sample", "Result", "Supplier"]
             },
             {
               "name": "CRM Integration",
@@ -564,20 +570,20 @@
               "role": "Enterprise Architect, Developer",
               "integrationLogos": [{ "logo": "salesforce.png", "logoHeight": 25 }],
               "description": "B2B and B2C Customer relationships are managed in SalesForce. We integrated SalesForce with The Core.",
-              "stack": [
-                "Customer",
-                "Sales Order",
-                "Invoice",
-                "Payment",
-                "Loyalty"
-              ]
+              "stack": ["Customer", "Sales Order", "Invoice", "Payment", "Loyalty"]
             },
             {
               "name": "Commerce Integrations",
               "logoHeight": 35,
               "logo": "oracleatg.png",
               "role": "Enterprise Architect, Developer",
-              "integrationLogos": [{ "logo": "oracleatg.png", "logoHeight": 25 },{ "logo": "amazon.png", "logoHeight": 25 },{ "logo": "tmall.png", "logoHeight": 35 },{ "logo": "koala.png", "logoHeight": 25 },{ "logo": "commercetools.png", "logoHeight": 25 }],
+              "integrationLogos": [
+                { "logo": "oracleatg.png", "logoHeight": 25 },
+                { "logo": "amazon.png", "logoHeight": 25 },
+                { "logo": "tmall.png", "logoHeight": 35 },
+                { "logo": "koala.png", "logoHeight": 25 },
+                { "logo": "commercetools.png", "logoHeight": 25 }
+              ],
               "description": "Comvita sell direct to market via a global Oracle ATG commerce platform. In addition they sell via online marketplaces and also aggregators. We did a number of different types of integrations with Oracle ATG, Amazon, TMall, JD.com, Koala and Commerce Tools with The Core",
               "stack": [
                 "Replenishment",
@@ -595,8 +601,11 @@
               "logoHeight": 35,
               "logo": "webdam.png",
               "role": "Enterprise Architect, Developer",
-              "integrationLogos": [{ "logo": "webdam.png", "logoHeight": 25 },{ "logo": "contentful.png", "logoHeight": 15 }],
-              "description": "Core media assets are stored and curated in WebDam. Marketing and web content is available from Contentful. We developed integration with these in a point to point fashion with LOB systems."              
+              "integrationLogos": [
+                { "logo": "webdam.png", "logoHeight": 25 },
+                { "logo": "contentful.png", "logoHeight": 15 }
+              ],
+              "description": "Core media assets are stored and curated in WebDam. Marketing and web content is available from Contentful. We developed integration with these in a point to point fashion with LOB systems."
             },
             {
               "name": "Planning and Analytics Integration",
@@ -605,12 +614,7 @@
               "role": "Enterprise Architect, Developer",
               "integrationLogos": [{ "logo": "ai.png", "logoHeight": 25 }],
               "description": "Comvita manage their manufacturing and supply side planning with Adaptive Insights. We integrated AI with The Core.",
-              "stack": [
-                "GL Codes",
-                "Sales Order",
-                "Distribution Order",
-                "Chart Account"
-              ]
+              "stack": ["GL Codes", "Sales Order", "Distribution Order", "Chart Account"]
             },
             {
               "name": "Supplier Integration",
@@ -619,10 +623,7 @@
               "role": "Enterprise Architect, Developer",
               "integrationLogos": [{ "logo": "esker.png", "logoHeight": 25 }],
               "description": "Comvita manage supplier payments with Esker. We integrated Esker with The Core.",
-              "stack": [
-                "Invoice",
-                "Supplier"
-              ]
+              "stack": ["Invoice", "Supplier"]
             },
             {
               "name": "Manufacturing Integration",
@@ -631,17 +632,19 @@
               "role": "Enterprise Architect, Developer",
               "integrationLogos": [{ "logo": "scada.jpg", "logoHeight": 25 }],
               "description": "Comvita manage moisture content, weight and formulation with various SCADA. We integrated the SCADA work orders with The Core.",
-              "stack": [
-                "Work Order",
-                "Drum"
-              ]
+              "stack": ["Work Order", "Drum"]
             },
             {
               "name": "Other Minor Integrations",
               "logoHeight": 35,
               "logo": "esker.png",
               "role": "Enterprise Architect, Developer",
-              "integrationLogos": [{ "logo": "yammer.png", "logoHeight": 25 },{ "logo": "teams.png", "logoHeight": 25 },{ "logo": "outlook.png", "logoHeight": 25 },{ "logo": "twitter.png", "logoHeight": 25 }],
+              "integrationLogos": [
+                { "logo": "yammer.png", "logoHeight": 25 },
+                { "logo": "teams.png", "logoHeight": 25 },
+                { "logo": "outlook.png", "logoHeight": 25 },
+                { "logo": "twitter.png", "logoHeight": 25 }
+              ],
               "description": "Comvita use a variety of social and communication tools. We integrated these with The Core and LOB Systems."
             }
           ]
