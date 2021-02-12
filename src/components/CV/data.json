@@ -223,6 +223,7 @@
             "established continuous integration and deployment pipelines",
             "established modified Agile Scrum methodology",
             "ownership of product backlogs and team management",
+            "development in Asp.Net and Angular",
             "pull request and code review participation",
             "team member periodic reviews",
             "branding and marketing strategy and planning",
@@ -681,13 +682,11 @@
             "all": [".Net", "Angular"]
           },
           "achievements": [
-            "tenancy, account, and subscription topology. Highlighting structural, operational, cost and security issues",
-            "review of existing ad-hoc vm infrastructure",
-            "network vulnerabilities with emphasis on DDoS exposure from UDP",
-            "review of DevOps: repositories, development practices, feature / release cycles, code security, developer task management, IaC and release pipelines",
-            "review of application and vm logging",
-            "review of logging differentiation: metrics, trace, dependency, exceptions, availability and requests",
-            "code review: SANS SWAT, CWE, code smell, refactoring and home-rolled cryptography"
+            "business analysis with client",
+            "detailed solution design",
+            "project management office setup",
+            "development of aspNet web application",
+            "development of Ionic mobile application for Android and IOS"
           ],
           "subprojects": []
         }
