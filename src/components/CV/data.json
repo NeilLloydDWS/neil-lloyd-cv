@@ -776,7 +776,12 @@
           "role": "Solution Architect & Developer",
           "description": "Airways is New Zealand’s air navigation service provider. Their staff of 780 deliver air navigation and air traffic management consultancy and training services throughout New Zealand and in over 65 countries. Airways had a number of existing intranet and document management capabilities hosted on-premise in out-dated technology. The existing solutions were heavily customized and complex. To meet their Cloud Strategy goals they needed a clear path to the cloud. Overly complex information architecture and poor user experiences meant they weren’t getting the collaboration and adoption required. ",
           "stack": {
-            "me": ["Office 365 [SharePoint,Yammer,AD]", "PowerShell", "AvePoint", "Angular"],
+            "me": [
+              "Office 365 [SharePoint,Yammer,AD]",
+              "PowerShell",
+              "AvePoint",
+              "Angular"
+            ],
             "all": ["SharePoint", "PowerShell", "AvePoint", "Angular"]
           },
           "achievements": [
@@ -1109,7 +1114,7 @@
       "jobTitle": "MANAGING DIRECTOR",
       "photo": "mick.jfif",
       "linkedin": "https://www.linkedin.com/in/michaelstevens1/",
-      "text": "Reference available on request."
+      "text": "It is rare to find someone with a deep level of hands-on technical expertise who can also define and architect the overall solution to align with high level business objectives. We were delighted to have engaged Neil in 2020 to deliver a key program to evolve Aquiba’s monolithic IoT platform into a scaleable, containerized solution. Neil’s willingness to take ownership for fully understanding priorities and requirements was greatly valued and resulted in a program which was much better tailored to our needs. I will miss the robust discussion exploring technical options! Neil would be an extremely valuable to anyone wishing to develop a state-of the-art cloud platform."
     },
     {
       "name": "Dan Waugh",
