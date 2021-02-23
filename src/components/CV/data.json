@@ -705,7 +705,7 @@
           "logoHeight": 35,
           "logo": "nzceo.png",
           "role": "Solution Architect & Developer",
-          "description": "The New Zealand Catholic Education Office [NZCEO] lead the international Catholic community with the launch of an online education network today that will give over 249 schools and 4,000 teachers the ability to share resources and collaborate in new ways. As the founder of Cloud Inc we worked with Microsoft New Zealand and the New Zealand Catholic Education Office (NZCEO) to develop an online education network for 4,000 teachers to give the ability to share resources and collaborate in new ways. The online services portal was built on Microsoft’s Office 365 cloud platform and incorporates collaboration tools such as Yammer, shared workspaces and catholic education resources.",
+          "description": "As the founder of Cloud Inc I worked with Microsoft New Zealand and the New Zealand Catholic Education Office (NZCEO) to develop an online education network for 4,000 teachers to give the ability to share resources and collaborate in new ways. The online services portal was built on Microsoft’s Office 365 cloud platform and incorporates collaboration tools such as Yammer, shared workspaces and catholic education resources.",
           "stack": {
             "me": [
               "Azure AD",
