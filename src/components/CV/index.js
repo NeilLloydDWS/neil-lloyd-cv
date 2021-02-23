@@ -9,6 +9,7 @@ import PitchLine from './PitchLine'
 import Volunteer from './Volunteer'
 import Travel from './Travel'
 import Education from './Education'
+import Books from './Books'
 import Experiments from './Experiments'
 import Recommendations from './Recommendations'
 import Footer from './Footer'
@@ -31,6 +32,7 @@ const CV = () => (
       {data.travel && <Travel travel={data.travel} />}
       {data.education && <Education education={data.education} />}
       {data.recommendations && <Recommendations recommendations={data.recommendations} />}
+      {data.books && <Books books={data.books} />}
       {data.footer && <Footer footer={data.footer} />}
     </Content>
   </>

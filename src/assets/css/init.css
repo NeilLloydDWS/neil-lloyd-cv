@@ -110,6 +110,9 @@ img {
 
 margin-right:10px;
 }
+.books{
+  max-height: none;
+}
 
 .travel-desc {
   margin-bottom: 20px;
