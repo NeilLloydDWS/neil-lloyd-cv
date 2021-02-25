@@ -164,6 +164,8 @@
         "Azure Security Centre",
         "Azure Key Vault",
         "Pulumi",
+        "Helm",
+        "Terraform",
         "Azure DevOps",
         "GitFlow",
         "Azure Monitor",
@@ -326,7 +328,10 @@
               "Azure DevOps",
               "Docker",
               "Azure Monitor",
-              "App Insights"
+              "App Insights",
+              "Helm",
+              "Terraform",
+              "Pulumi"
             ],
             "all": ["Azure", "Kubernetes"]
           },
